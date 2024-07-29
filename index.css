@@ -1,0 +1,26 @@
+body {
+    font-family: Arial sans-serif;
+    /*background: url("./b.jpg") repeat scroll 0;*/
+    background-color: rgb(248, 248, 248);
+}
+.shadow-form {
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.table-container {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.table{
+    background-color: #fdfdfd;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
