@@ -92,7 +92,7 @@ $(document).ready(function () {
     }
 
     // Delete product with confirmation
-    $('#productTableBody').on('click', '.delete-button', function () {
+    $("#productTableBody").on('click', '.delete-button', function () {
         let row = $(this).closest('tr');
         let id = row.data('id');
 
@@ -156,7 +156,7 @@ $(document).ready(function () {
         let searchQuery = $(this).val().toLowerCase();
         $('#productTableBody tr').each(function () {
             let row = $(this);
-            let productName = row.find('td').eq(0).text().toLowerCase();
+            let productName = row.find('td').eq(1).text().toLowerCase();
             row.toggle(productName.includes(searchQuery));
         });
     });
