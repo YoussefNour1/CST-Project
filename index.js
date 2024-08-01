@@ -156,7 +156,7 @@ $(document).ready(function () {
         let searchQuery = $(this).val().toLowerCase();
         $('#productTableBody tr').each(function () {
             let row = $(this);
-            let productName = row.find('td').eq(0).text().toLowerCase();
+            let productName = row.find('td').eq(1).text().toLowerCase();
             row.toggle(productName.includes(searchQuery));
         });
     });
